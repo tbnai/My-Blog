@@ -2283,6 +2283,16 @@ input, select, textarea {
 
 /* Image */
 
+	/* Example: Profile Picture Styles */
+	#aboutmephoto {
+		width: 300px; /* Set the desired width */
+		height: auto; /* Adjust the height proportionally */
+		display: block; /* Ensure the image is displayed as a block element */
+		margin: 0 auto; /* Center the image horizontally */
+	}
+
+
+
 	.image {
 		border: 0;
 		display: inline-block;
