@@ -3435,9 +3435,10 @@ input, select, textarea {
 			margin: 0 0 1em 0;
 			overflow: hidden; /* Clip the content inside the frame */
 			position: relative;
-			width: 6em; /* Adjust the width of the circular frame */
-			height: 6em; /* Adjust the height of the circular frame */
+			width: 8em;
+			height: 8em; /* Added height to match the width */
 		}
+
 
 
 		#intro .logo:before {
