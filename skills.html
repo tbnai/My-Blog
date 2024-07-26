@@ -99,21 +99,28 @@
 							<article class="post">
 								<header>
 									<div class="title">
-										<h2><a href="#">About Me</a></h2>
-										<p>Learn about me</p>
+										<h2><a href="#">Skills</a></h2>
+										<p></p>
 									</div>
 									<div class="meta">
 										<time class="published" datetime="2015-11-01">6/25/2024</time>
 										<a href="#" class="author"><span class="name">Tony Nguyen</span><img src="images/logo.jpg" alt="" /></a>
 									</div>
 								</header>
-								<span class="image featured"><img id = "aboutmephoto" src="images/aboutmephoto.jpg" alt="" /></span>
-								<p>Greetings, my name is Tony Nguyen. As a first-generation individual, I hail from Kansas City, Missouri, where I’ve spent my entire life. I have two siblings, both of whom have graduated from college. During my leisure time, I indulge in varius personal projects, including building my own bankroll management where it calculates my win/loss ratio. My dream is to lounge on the beach everyday. Additionally, I enjoy aquascaping, soccer, and longboarding. </p>
-								<p>Why Computer Science?</p>
-								<p>I chose to major in computer science because it affords me the opportunity to explore both of my passions: solving programs and producing creative experiences. Through code, I can generate ideas that solve user-specific problems, design and ideate possible solutions, and then execute them.
-								</p>
-								<p>My first exposure to computer science came my first-year of college when I enrolled in Introduction to CS in C++ on a whim. Almost immediately, I realized that I enjoyed the sort of puzzles and work in my CS class abundantly more than the sorts of logic and problem solving in my other classes; even more, I became excited when I realized that these small scale problems, I was solving within a few lines of code could be scaled up to larger, more impactful projects.</p>
-								<p>You can find me on social media given below.</p>
+								<span class="image featured"><img id = "aboutmephoto" src="#" alt="" /></span>
+								<p>Programming Languages:</p>
+								<p>Python (Basic)</p>
+								<p>JavaScript (Basic)</p>
+								<p>C++ (Intermediate)</p>
+								<p>Java (Intermediate)</p>
+								<p>Web Development:</p>
+								<p>HTML/CSS (Basic)</p>					
+								<p>Data Analysis:</p>
+								<p>SQL (Basic)</p>
+								<p>Excel (Advanced)</p>
+								<p>Communication:</p>
+								<p>Public speaking (Advanced)</p>
+								<p>Report writing (Advanced)</p>
 								<footer>
 									<ul class="stats">
 
@@ -143,6 +150,24 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+
+			<!-- JavaScript to Bold Specific Headings -->
+<script>
+    // Select all <p> elements within the post
+    var paragraphs = document.querySelectorAll('article.post p');
+
+    // Loop through each <p> element
+    paragraphs.forEach(function(paragraph) {
+        // Check if the text content matches the headings you want to bold
+        if (paragraph.innerText === 'Programming Languages:' || 
+            paragraph.innerText === 'Web Development:' || 
+            paragraph.innerText === 'Data Analysis:' || 
+            paragraph.innerText === 'Communication:') {
+            // Wrap the text in <b> tags
+            paragraph.innerHTML = '<b>' + paragraph.innerHTML + '</b>';
+        }
+    });
+</script>
 
 	</body>
 </html>
