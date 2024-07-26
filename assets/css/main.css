@@ -3462,10 +3462,7 @@ input, select, textarea {
 			clip-path: circle(50%); /* Clips the image to a circular shape */
 		}
 
-	#intro header h2 {
-		font-size: 2em;
-		font-weight: 900;
-	}
+
 
 	#intro header p {
 		font-size: 0.8em;
