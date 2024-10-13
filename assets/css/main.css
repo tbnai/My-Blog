@@ -3437,7 +3437,7 @@ input, select, textarea {
 			position: relative;
 			width: 8em;
 			height: 8em; /* Added height to match the width */
-			background-image: url('path/to/your/logo.jpg'); /* Update this path to the location of your JPG image */
+			background-image: url('C:\Users\nguye\OneDrive\Desktop\Website\My Blog\images\logo.jpg'); /* Update this path to the location of your JPG image */
 			background-size: cover; /* Ensures the image covers the container */
 			background-position: center; /* Centers the background image */
 			background-repeat: no-repeat; /* Prevents the image from repeating */
